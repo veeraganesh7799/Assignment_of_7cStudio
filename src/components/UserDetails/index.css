@@ -19,9 +19,22 @@
     align-items: center;
   }
   .data {
-    width: 35%;
+    width: 30%;
     font-family: sans-serif;
-    color: rgb(16, 15, 15);
+    color: #fff;
+    border: 0.5px solid gainsboro;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+    align-items: center;
+    font-weight: bold;
+  }
+  .data-sNo{
+    width: 10%;
+    font-family: sans-serif;
+    color: #fff;
     border: 0.5px solid gainsboro;
     height: 40px;
     text-align: center;
@@ -42,7 +55,21 @@
     width: 100%;
   }
   .data-row {
-    width: 35%;
+    width: 30%;
+    font-family: sans-serif;
+    color: rgb(16, 15, 15);
+    border: 0.5px solid gainsboro;
+    border-top: none;
+    height: 40px;
+    text-align: center;
+    display: flex;
+    justify-content: flex-start;
+    padding-left: 10px;
+    align-items: center;
+    margin-top: 0px;
+  }
+  .data-row-sNo {
+    width: 10%;
     font-family: sans-serif;
     color: rgb(16, 15, 15);
     border: 0.5px solid gainsboro;
@@ -59,7 +86,7 @@
   .data-delete {
     width: 15%;
     font-family: sans-serif;
-    color: rgb(16, 15, 15);
+    color: #fff;
     border: 0.5px solid gainsboro;
     height: 40px;
     text-align: center;

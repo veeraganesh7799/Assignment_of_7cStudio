@@ -56,9 +56,6 @@ const UserDetails = () => {
   const currentPosts = userInfo.slice(indexOfFirstPost, indexOfLastPost)
 
 
-   
-  
-
   return (
     <div className="main-container">
       <PopupUser
@@ -75,16 +72,18 @@ const UserDetails = () => {
       <table className="table-conatiner">
         <thead className="header-rows">
           <tr className="header-rows">
+          <td className="data-sNo">#</td>
             <td className="data">User</td>
             <td className="data">Last Signed in</td>
             <td className="data">Role</td>
-            <td className="data-delete">.</td>
+            <td className="data-delete"></td>
           </tr>
         </thead>
 
-        {currentPosts.map((item) => (
+        {currentPosts.map((item,index) => (
           <tbody className="rows-row" key={item.id}>
             <tr className="rows" key={item.id}>
+            <td className="data-row-sNo">{index+1}</td>
               <td className="data-row">{item.name}</td>
               <td className="data-row">{setDateHandler(item.id)}</td>
               <td className="data-row">{item.role}</td>

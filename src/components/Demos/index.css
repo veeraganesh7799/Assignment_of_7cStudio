@@ -1,13 +1,19 @@
 .heading {
     font-family: sans-serif;
     align-self: center;
-    position: sticky;
-    top: 50%;
+    margin-top: 100px;
+   
   }
+  @media (min-width:830px){
+    .heading{
+      position: sticky;
+      top: 50%;
+    }
+  }
+
   .container {
     display: flex;
     flex-direction: column;
-    
     align-items: center;
     width: 78%;
     margin-left: 2%;
