@@ -19,11 +19,11 @@
     align-items: center;
   }
   .data {
-    width: 30%;
+    width: 32%;
     font-family: sans-serif;
     color: #fff;
     border: 0.5px solid gainsboro;
-    height: 40px;
+    height: 45px;
     text-align: center;
     display: flex;
     justify-content: flex-start;
@@ -36,7 +36,7 @@
     font-family: sans-serif;
     color: #fff;
     border: 0.5px solid gainsboro;
-    height: 40px;
+    height: 45px;
     text-align: center;
     display: flex;
     justify-content: flex-start;
@@ -55,12 +55,12 @@
     width: 100%;
   }
   .data-row {
-    width: 30%;
+    width: 32%;
     font-family: sans-serif;
     color: rgb(16, 15, 15);
     border: 0.5px solid gainsboro;
     border-top: none;
-    height: 40px;
+    height: 45px;
     text-align: center;
     display: flex;
     justify-content: flex-start;
@@ -74,7 +74,7 @@
     color: rgb(16, 15, 15);
     border: 0.5px solid gainsboro;
     border-top: none;
-    height: 40px;
+    height: 45px;
     text-align: center;
     display: flex;
     justify-content: flex-start;
@@ -84,11 +84,11 @@
   }
   
   .data-delete {
-    width: 15%;
+    width: 13%;
     font-family: sans-serif;
     color: #fff;
     border: 0.5px solid gainsboro;
-    height: 40px;
+    height: 45px;
     text-align: center;
     display: flex;
     justify-content: flex-start;
@@ -96,12 +96,12 @@
     align-items: center;
   }
   .data-row-delete {
-    width: 15%;
+    width: 13%;
     font-family: sans-serif;
     color: rgb(16, 15, 15);
     border: 0.5px solid gainsboro;
     border-top: none;
-    height: 40px;
+    height: 45px;
     text-align: center;
     display: flex;
     flex-direction: column;
